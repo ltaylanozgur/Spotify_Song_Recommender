@@ -30,7 +30,7 @@ The uri of all the songs in the Songs_df database is added.
 #### 4_Unsupervised_Learning_Intro 
 The collected songs are clustered using KMeans clustering model. Clustering the songs allows the recommendation system to limit the scope of the recommendations to only songs that belong to the same cluster - songs with similar audio features. The audio features are collected from Spotify API. After that, the Spotify audio features of the submitted song are sent to the clustering model, which should return a cluster number. The song uri is collected from the song name. Then, the song features are collected from song uri. Finally, the song recommendation system is created.
 
-#### spotify_app.py
+#### 5_spotify_app.py
 The song recommendation application is created using streamlit and python.
 
 <a id='section3'></a>
